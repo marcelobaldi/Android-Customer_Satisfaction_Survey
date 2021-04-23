@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ActivityMain">
+
+    <Button
+        android:id="@+id/btnPesquisa"
+        android:onClick="btnPesquisa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01. Pesquisa de Satisfação"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15sp" />
+
+    <Button
+        android:id="@+id/btnRelatorio"
+        android:onClick="btnRelatorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="02. Relatórios da Pesquisa"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="1sp"
+        android:src="@drawable/imagem_pesquisa_teclado" />
+
+</LinearLayout>

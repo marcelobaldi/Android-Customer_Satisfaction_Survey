@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.ActivityPesquisa01">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/titulo"
+                android:layout_width="240sp"
+                android:layout_height="45sp"
+                android:layout_marginLeft="55sp"
+                app:srcCompat="@drawable/titulopesquisa" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="218dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15sp"
+                    android:text="01. Atendimento"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edt_atendimento"
+                    android:layout_gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25sp"
+                    android:ems="4"
+                    android:focusable="false"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30sp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ibtn_01_pessimo"
+                    android:layout_width="45sp"
+                    android:layout_height="45sp"
+                    android:layout_gravity="center_vertical"
+                    app:srcCompat="@drawable/pessimo_50" />
+
+                <ImageView
+                    android:id="@+id/ibtn_01_ruim"
+                    android:layout_width="45sp"
+                    android:layout_height="45sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15sp"
+                    app:srcCompat="@drawable/ruim_50" />
+
+                <ImageView
+                    android:id="@+id/ibtn_01_reg"
+                    android:layout_width="45sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="45sp"
+                    android:layout_marginLeft="15sp"
+                    app:srcCompat="@drawable/regular_50" />
+
+                <ImageView
+                    android:id="@+id/ibtn_01_bom"
+                    android:layout_width="38sp"
+                    android:layout_height="38sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15sp"
+                    app:srcCompat="@drawable/bomm_30" />
+
+                <ImageView
+                    android:id="@+id/ibtn_01_excelente"
+                    android:layout_width="45sp"
+                    android:layout_height="45sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15sp"
+                    app:srcCompat="@drawable/otimo_50" />
+            </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18sp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15sp"
+                    android:text="Péssimo"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="27sp"
+                    android:text="Ruim"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="33sp"
+                    android:text="Regular"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30sp"
+                    android:text="Bom"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="33sp"
+                    android:text="Ótimo"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="227dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="5sp"
+                    android:text="02. Cardápio"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edt_cardapio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15sp"
+                    android:ems="4"
+                    android:layout_gravity="bottom"
+                    android:focusable="false"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30sp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ibtn_02_pessimo"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="45sp"
+                    android:layout_height="45sp"
+                    app:srcCompat="@drawable/pessimo_50" />
+
+                <ImageView
+                    android:id="@+id/ibtn_02_ruim"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="45sp"
+                    android:layout_height="45sp"
+                    android:layout_marginLeft="15sp"
+                    app:srcCompat="@drawable/ruim_50" />
+
+                <ImageView
+                    android:id="@+id/ibtn_02_reg"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="45sp"
+                    android:layout_height="45sp"
+                    android:layout_marginLeft="15sp"
+                    android:src="@drawable/regular_50" />
+
+                <ImageView
+                    android:id="@+id/ibtn_02_bom"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="38sp"
+                    android:layout_height="38sp"
+                    android:layout_marginLeft="15sp"
+                    app:srcCompat="@drawable/bomm_30" />
+
+                <ImageView
+                    android:id="@+id/ibtn_02_excelente"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="45sp"
+                    android:layout_height="45sp"
+                    android:layout_marginLeft="15sp"
+                    app:srcCompat="@drawable/otimo_50" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18sp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15sp"
+                    android:text="Péssimo"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="27sp"
+                    android:text="Ruim"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="33sp"
+                    android:text="Regular"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30sp"
+                    android:text="Bom"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="33sp"
+                    android:text="Ótimo"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="237dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15sp"
+                    android:text="03. Tempo de Espera"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edt_tempo_espera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5sp"
+                    android:ems="4"
+                    android:layout_gravity="bottom"
+                    android:focusable="false"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30sp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ibtn_03_pessimo"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="45sp"
+                    android:layout_height="45sp"
+                    app:srcCompat="@drawable/pessimo_50" />
+
+                <ImageView
+                    android:id="@+id/ibtn_03_ruim"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="45sp"
+                    android:layout_height="45sp"
+                    android:layout_marginLeft="15sp"
+                    app:srcCompat="@drawable/ruim_50" />
+
+                <ImageView
+                    android:id="@+id/ibtn_03_reg"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="45sp"
+                    android:layout_height="45sp"
+                    android:layout_marginLeft="15sp"
+                    app:srcCompat="@drawable/regular_50" />
+
+                <ImageView
+                    android:id="@+id/ibtn_03_bom"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="38sp"
+                    android:layout_height="38sp"
+                    android:layout_marginLeft="15sp"
+                    app:srcCompat="@drawable/bomm_30"
+                    android:contentDescription="TODO" />
+
+                <ImageView
+                    android:id="@+id/ibtn_03_excelente"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="45sp"
+                    android:layout_height="45sp"
+                    android:layout_marginLeft="15sp"
+                    app:srcCompat="@drawable/otimo_50" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18sp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15sp"
+                    android:text="Péssimo"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="27sp"
+                    android:text="Ruim"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="33sp"
+                    android:text="Regular"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30sp"
+                    android:text="Bom"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="33sp"
+                    android:text="Ótimo"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="239dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="5sp"
+                    android:text="04. Ambiente e Limpeza"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edt_ambiente_limpeza"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="4"
+                    android:layout_gravity="bottom"
+                    android:focusable="false"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30sp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ibtn_04_pessimo"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="45sp"
+                    android:layout_height="45sp"
+                    app:srcCompat="@drawable/pessimo_50" />
+
+                <ImageView
+                    android:id="@+id/ibtn_04_ruim"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="45sp"
+                    android:layout_height="45sp"
+                    android:layout_marginLeft="15sp"
+                    app:srcCompat="@drawable/ruim_50" />
+
+                <ImageView
+                    android:id="@+id/ibtn_04_reg"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="45sp"
+                    android:layout_height="45sp"
+                    android:layout_marginLeft="15sp"
+                    app:srcCompat="@drawable/regular_50" />
+
+                <ImageView
+                    android:id="@+id/ibtn_04_bom"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="38sp"
+                    android:layout_height="38sp"
+                    android:layout_marginLeft="15sp"
+                    app:srcCompat="@drawable/bomm_30" />
+
+                <ImageView
+                    android:id="@+id/ibtn_04_otimo"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="45sp"
+                    android:layout_height="45sp"
+                    android:layout_marginLeft="15sp"
+                    app:srcCompat="@drawable/otimo_50" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18sp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15sp"
+                    android:text="Péssimo"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="27sp"
+                    android:text="Ruim"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="33sp"
+                    android:text="Regular"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30sp"
+                    android:text="Bom"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="33sp"
+                    android:text="Ótimo"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_proximo"
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:layout_gravity="end"
+                android:layout_marginTop="5sp"
+                android:onClick="btn_proximo"
+                android:text="Próximo >>"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</ScrollView>

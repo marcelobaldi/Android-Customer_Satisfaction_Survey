@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Gestion</string>
+    <string name="title_activity_main2">Main2Activityxxxxxxxxxxxxx</string>
+    <string name="title_activity_relatorio">Relatório da Pesquisa de Satisfação</string>
+    <string name="title_activity_bbb">bbb</string>
+    <string name="title_activity_cccc">cccc</string>
+    <string name="title_activity_pesquisa1">pesquisa1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

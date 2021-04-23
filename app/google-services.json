@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "985374921535",
+    "firebase_url": "https://pesquisasatisfacao-64f71.firebaseio.com",
+    "project_id": "pesquisasatisfacao-64f71",
+    "storage_bucket": "pesquisasatisfacao-64f71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985374921535:android:26d30e2890d65311",
+        "android_client_info": {
+          "package_name": "br.com.pesqsatisf02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985374921535-l17bq03le3ei2a7tbsa1gh1kiokti40h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.pesqsatisf02",
+            "certificate_hash": "c2671bad6f0c05ab08433f056b4eff984d0a4715"
+          }
+        },
+        {
+          "client_id": "985374921535-j7nuf1d7eliv0gjcaid45d48mi7mrg01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsdpjloiW32LZDvdA00WdrB-w6pbxf1wQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985374921535-j7nuf1d7eliv0gjcaid45d48mi7mrg01.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
